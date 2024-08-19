@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-wrapper {
@@ -172,4 +175,13 @@ a {
     border-color: #F9FAF8;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 30px;
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 16px;
+    color: #F9FAF8;
 }
