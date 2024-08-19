@@ -105,3 +105,20 @@ a {
     border-color: #3882F6;
     border-radius: 16px;
 }
+
+.quote-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 960px;
+    box-sizing: border-box;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-source {
+    align-self: flex-end;
+}
