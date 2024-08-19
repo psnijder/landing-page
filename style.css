@@ -43,7 +43,7 @@ a {
 }
 
 .header-hero-text {
-    padding: 60px;
+    padding: 80px;
     width: 960px;
     font-size: 18px;
     color: #E5E7EB;
@@ -82,9 +82,11 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .info-wrapper h2 {
+    margin: 60px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -154,6 +156,7 @@ a {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .cta-box h3 {
