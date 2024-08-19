@@ -135,3 +135,41 @@ a {
 .quote p {
     color: #1F2937;
 }
+
+.cta-wrapper {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    width: 960px;
+    padding: 36px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+.cta-box h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.cta-box p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.cta-box button {
+    padding: 0 28px;
+    background-color: #3882F6;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+}
