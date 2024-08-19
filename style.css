@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav {
+    width: 960px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav ul {
+    margin-left: auto;
+    display: flex;
+}
+
+.header-hero-text {
+    padding: 40px;
+    width: 960px;
+    display: flex;
+    gap: 28px;
+}
+
+.hero-image {
+    flex: 0 0 480px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
